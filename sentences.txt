@@ -1,0 +1,126 @@
+I've been staring at the edge of the water
+'Long as I can remember, never really knowing why
+I wish I could be the perfect daughter
+But I come back to the water, no matter how hard I try
+Every turn I take, every trail I track
+Every path I make, every road leads back
+To the place I know, where I cannot go, where I long to be
+See the line where the sky meets the sea? It calls me
+And no one knows, how far it goes
+If the wind in my sail on the sea stays behind me
+One day I'll know
+If I go, there's just no telling how far I'll go
+I know everybody on this island seems so happy, on this island
+Everything is by design
+I know everybody on this island has a role on this island
+So maybe I can roll with mine
+I can lead with pride, I can make us strong
+I'll be satisfied if I play along
+But the voice inside sings a different song
+What is wrong with me?
+See the light as it shines on the sea? It's blinding
+But no one knows, how deep it goes
+And it seems like it's calling out to me, so come find me
+And let me know
+What's beyond that line? Will I cross that line?
+The line where the sky meets the sea? It calls me
+And no one knows, how far it goes
+If the wind in my sail on the sea stays behind me
+One day I'll know
+How far I'll go
+
+The snow glows white on the mountain tonight
+Not a footprint to be seen
+A kingdom of isolation
+And it looks like I'm the queen
+The wind is howling like this swirling storm inside
+Couldn't keep it in, heaven knows I tried
+Don't let them in, don't let them see
+Be the good girl you always have to be
+Conceal, don't feel, don't let them know
+Well, now they know
+Let it go, let it go
+Can't hold it back anymore
+Let it go, let it go
+Turn away and slam the door
+I don't care what they're going to say
+Let the storm rage on
+The cold never bothered me anyway
+It's funny how some distance makes everything seem small
+And the fears that once controlled me can't get to me at all
+It's time to see what I can do
+To test the limits and break through
+No right, no wrong, no rules for me
+I'm free
+Let it go, let it go
+I am one with the wind and sky
+Let it go, let it go
+You'll never see me cry
+Here I stand and here I stay
+Let the storm rage on
+My power flurries through the air into the ground
+My soul is spiraling in frozen fractals all around
+And one thought crystallizes like an icy blast
+I'm never going back, the past is in the past
+Let it go, let it go
+And I'll rise like the break of dawn
+Let it go, let it go
+That perfect girl is gone
+Here I stand in the light of day
+Let the storm rage on
+The cold never bothered me anyway
+
+Paradigm:-
+A paradigm can also be termed as a method to solve a problem or accomplish a task. 
+A programming paradigm is an approach to solving a problem using a specific programming language. 
+In other words, it is a methodology for problem-solving using the tools and techniques available to us, following a particular approach. 
+While there are many programming languages, each of them typically adheres to one or more paradigms that guide how the language is implemented.
+
+These methodologies or strategies are referred to as programming paradigms. Apart from the variety of programming languages available, 
+there are several paradigms that address different demands and challenges in software development.
+
+Imperative programming paradigm: It is one of the oldest programming paradigm. It features close relation to machine architecture. 
+It is based on Von Neumann architecture. It works by changing the program state through assignment statements. It performs step by step task by changing state. 
+The main focus is on how to achieve the goal. The paradigm consist of several statements and after execution of all the result is stored.
+
+Procedural programming paradigm – 
+This paradigm emphasizes on procedure in terms of under lying machine model. There is no difference in between procedural and imperative approach. 
+It has the ability to reuse the code and it was boon at that time when it was in use because of its reusability.
+
+Object oriented programming – 
+The program is written as a collection of classes and object which are meant for communication. 
+The smallest and basic entity is object and all kind of computation is performed on the objects only. 
+More emphasis is on data rather procedure. It can handle almost all kind of real life problems which are today in scenario.
+
+Parallel processing approach – 
+Parallel processing is the processing of program instructions by dividing them among multiple processors. 
+A parallel processing system posses many numbers of processor with the objective of running a program in less time by dividing them. 
+This approach seems to be like divide and conquer. Examples are NESL (one of the oldest one) and C/C++ also supports because of some library function.
+
+Declarative programming paradigm: 
+It is divided as Logic, Functional, Database. In computer science the declarative programming is a style of building programs 
+that expresses logic of computation without talking about its control flow. It often considers programs as theories of some logic.
+It may simplify writing parallel programs. The focus is on what needs to be done rather how it should be done basically emphasize on what code is actually doing.
+It just declares the result we want rather how it has be produced. This is the only difference between imperative (how to do) and declarative (what to do) 
+programming paradigms. 
+Getting into deeper we would see logic, functional and database.
+
+Logic programming paradigms – 
+It can be termed as abstract model of computation. It would solve logical problems like puzzles, series etc. In logic programming we have a knowledge base 
+which we know before and along with the question and knowledge base which is given to machine, it produces result. In normal programming languages, such concept
+of knowledge base is not available but while using the concept of artificial intelligence, machine learning we have some models like Perception model which is 
+using the same mechanism. 
+In logical programming the main emphasize is on knowledge base and the problem. The execution of the program is very much like proof of mathematical statement, 
+e.g., Prolog
+
+Functional programming paradigms – 
+The functional programming paradigms has its roots in mathematics and it is language independent. 
+The key principle of this paradigms is the execution of series of mathematical functions. The central model for the abstraction is the function which are meant 
+for some specific computation and not the data structure. Data are loosely coupled to functions.The function hide their implementation. 
+Function can be replaced with their values without changing the meaning of the program. Some of the languages like perl, javascript mostly uses this paradigm.
+
+Database/Data driven programming approach – 
+This programming methodology is based on data and its movement. Program statements are defined by data rather than hard-coding a series of steps. 
+A database program is the heart of a business information system and provides file creation, data entry, update, query and reporting functions. 
+There are several programming languages that are developed mostly for database application. For example SQL. It is applied to streams of structured data, 
+for filtering, transforming, aggregating (such as computing statistics), or calling other programs. So it has its own wide application.

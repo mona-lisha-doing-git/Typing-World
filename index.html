@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+
+</head>
+<body>
+    <div id="navbar">
+        <div class="logo">
+            <a href="#" id="navlogo"><img src="logo.png" alt=""></a>
+        </div>
+
+    <ul class="nav-list">
+        <li><a class="navElement" id="navElement1" href="#">Home</a></li>
+        <li><a class="navElement" id="navElement2" href="#">Analytics</a></li>
+        <li><a class="navElement" id="navElement3" href="#">Leaderboard</a></li>
+        <li><a class="navElement" id="navElement4" href="#">Account</a></li>
+    </ul>
+
+    </div>
+    <h1 class="tagline">Explore Who You Are in the Typing World!!!</h1>
+
+<div id="timeline">
+    <div class="line2" id="timer">TIME</div>
+    <button id="submitScoreBtn" class="glow-button">Submit Score</button>
+
+    <button class="line2" id="resetBtn">Reset</button>
+</div>
+
+<div id="accuracySpeed">
+    <div id="speed" class="line3">
+        <h3>Speed (words/min)</h3>
+        <h2>0 wpm</h2>
+    </div>
+    <div id="accuracy" class="line3">
+        <h3>Accuracy (%)</h3>
+        <h2>100%</h2>
+    </div>
+</div>
+
+<!-- Text Work -->
+<div class="textwork">
+<div id="textbox">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+</div>
+</div>
+
+<div class="textwork">
+<div id="typebox">
+    <textarea class="customTextarea" type="text" name="typebox" placeholder="Type to Start!" rows="5" cols="70"></textarea>
+</div>
+</div>
+
+<!-- Result Modal -->
+<div id="resultModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Your Typing Results</h2>
+      <p id="wpmResult">WPM: --</p>
+      <p id="accuracyResult">Accuracy: --%</p>
+      <p id="wpmLabel" style="font-size: 20px; margin: 10px 0;"></p>
+      <button id="okBtn">OK, Back</button>
+    </div>
+  </div>
+
+<!-- Analytics -->
+<div id="analytics" class="graph-section">
+    <h2>Your Analytics</h2>
+    <div style="position: relative; height: 400px;">
+      <canvas id="analyticsChart"></canvas>
+    </div>
+  </div>
+  
+<!-- leaderboard -->
+<div id="leaderboard" class="leaderboard">
+    <p>
+        <h2>Leaderboard</h2>
+    </p>
+</div>
+
+<div id="account" class="accountContainer">
+    <div class="formbox"></div>
+    <!-- <div class="form-box">
+        <h2>Sign In</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="glow-button">Sign In</button>
+        </form>
+    </div>
+    <div class="form-box">
+        <h2>Sign Up</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="glow-button">Sign Up</button>
+        </form>
+    </div> -->
+</div>
+
+<footer>
+    <div class="foot-panel1">
+        <a href="#">Back to Home</a>
+    </div>
+    
+    <div class="foot-panel2">
+        <ul>
+            <p>Get to Know</p>
+        <a href="nextPage.html">More about us</a>
+        <a href="nextPage.html">Work with us</a>
+        <a href="nextPage.html">Where to find us</a>
+        <a href="nextPage.html">Contact us</a>
+        </ul>
+        <ul>
+            <p>Typing Strategies</p>
+            <a href="nextPage.html">Methodology</a>
+            <a href="nextPage.html">Tricks</a>
+            <a href="nextPage.html">Punch lines</a>
+            <a href="nextPage.html">How to Practice?</a>
+        </ul>
+        <ul>
+            <p>About Typing</p>
+            <a href="nextPage.html">History</a>
+            <a href="nextPage.html">Evolution of Keyboards</a>
+            <a href="nextPage.html">Fastest typing speed</a>
+            <a href="nextPage.html">Who invented typing?</a>
+        </ul>
+        <ul>
+            <p>Conclusion</p>
+            <a href="nextPage.html">Type your heart out</a>
+            <a href="nextPage.html">Mental peace</a>
+            <a href="nextPage.html">Satisfying</a>
+            <a href="nextPage.html">Good Time Pass</a>
+        </ul>
+    </div>
+
+    <div class="foot-panel3">
+        <div class="logo">
+            <a href="#" id="navlogo"><img src="logo.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="foot-panel4">
+        <div class="pages">
+            <a href="nextPage">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Your Ads Privacy Choices</a>
+        </div>
+
+        <div class="copyright">
+        <i class="fa-regular fa-copyright"></i>
+        2025-2025, TypingWorld.com, Inc. or its affiliates
+    </div>
+    </div>
+</footer>
+<script src="app.js"></script>
+
+</body>
+</html>
